@@ -7,9 +7,15 @@ env/
 __pycache__/
 *.py[cod]
 
-# Environment variables
-.env
 
 # IDE files
 .vscode/
 .idea/
+
+
+# Vector Database
+vectorstore/
+
+# OS
+.DS_Store
+Thumbs.db

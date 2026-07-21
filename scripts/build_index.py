@@ -5,8 +5,8 @@ from app.retrieval.vector_store import VectorStore
 
 def main():
 
-    documents = DocumentLoader.load(
-        "data/processed/constitution_metadata.json"
+    documents = DocumentLoader.load_directory(
+    "data/processed"
     )
 
     print(f"Loaded {len(documents)} documents")
